@@ -54,14 +54,6 @@ nav a:hover {
   background-color: azure;
 }
 
-#landing {
-  background: url('images/20150105_170630.jpg') no-repeat;
-  background-size: cover;
-  text-align: center;
-  padding: 50px 0;
-  margin-bottom: 50px;
-  width: 250%;
-}
 
 
 article h1 {
@@ -69,6 +61,11 @@ article h1 {
   color: #262626;
   text-align: center;
   margin: 20px 20px;
+}
+
+.past h1 {
+      margin-top: 50px;
+
 }
 
 .passion h1 {
@@ -87,6 +84,7 @@ article h2 {
   text-align: center;
   padding: 20px;
   border: thick solid orange;
+  display: block;
 }
 
 .passion p {
