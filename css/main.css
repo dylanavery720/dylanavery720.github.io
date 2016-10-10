@@ -1,0 +1,136 @@
+/* latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Muli'), url(https://fonts.gstatic.com/s/muli/v7/zscZFkjVRGyfQ_Pw-5exXPesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+
+body {
+
+  background-color: #b65217;
+}
+
+header {
+  background-color: #262626;
+  height: 50px;
+  color: orange;
+  margin-bottom: 30px;
+}
+
+.font {
+  font-family: 'Muli', sans-serif;
+}
+
+.gidugu {
+  font-family: 'Lato', sans-serif;
+}
+
+header h1 {
+  float: left;
+  font-size: 35px;
+  text-indent: 0px;
+  background: url('images/hipsterlogogenerator_1475945265458.png') no-repeat;
+  display: inline-block;
+  margin: 20px 20px;
+}
+
+header h2 {
+  text-indent: -40px;
+  padding: 10px;
+  display: inline-block;
+}
+
+nav {
+  float:right;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: #b65217;
+  padding: 17px 10px;
+  display: inline-block;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #262626;
+  background-color: azure;
+}
+
+
+
+article h1 {
+  font-size: 40px;
+  color: #262626;
+  text-align: center;
+  margin: 20px 20px;
+}
+
+.past h1 {
+      margin-top: 50px;
+
+}
+
+.passion h1 {
+  font-size: 40px;
+  color: azure;
+  text-align: center;
+  padding-top: 20px
+}
+
+article h2 {
+  font-size: 30px;
+}
+
+.past p {
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 20px;
+  display: block;
+}
+
+.passion p {
+  margin-top: -20px;
+  text-align: center;
+  padding: 20px;
+
+}
+
+.future p {
+  margin-bottom: 40px;
+  text-align: center;
+  padding: 20px;
+}
+
+.past {
+  background-color: #b65217;
+}
+
+.passion {
+  background-color: #262626;
+  color:azure;
+  border: #262626;
+}
+
+.future {
+  background-color: #b65217;
+}
+
+ul li  {
+  text-align: center;
+  list-style-image: url('images/131221.svg');
+  margin-bottom: 20px;
+}
+
+#insta {
+  height: 38px;
+  width: 38px;
+}
+
+footer {
+  text-align: center;
+}
