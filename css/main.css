@@ -1,15 +1,4 @@
-/* latin */
-@font-face {
-  font-family: 'Muli';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Muli'), url(https://fonts.gstatic.com/s/muli/v7/zscZFkjVRGyfQ_Pw-5exXPesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-
-
 body {
-
   background-color: #b65217;
 }
 
@@ -24,7 +13,7 @@ header {
   font-family: 'Muli', sans-serif;
 }
 
-.gidugu {
+.lato {
   font-family: 'Lato', sans-serif;
 }
 
@@ -45,7 +34,6 @@ header h2 {
 
 nav {
   float:right;
-
 }
 
 nav a {
@@ -61,8 +49,6 @@ nav a:hover {
   background-color: azure;
 }
 
-
-
 article h1 {
   font-size: 40px;
   color: #262626;
@@ -70,9 +56,23 @@ article h1 {
   margin: 20px 20px;
 }
 
+.past {
+  background-color: #b65217;
+}
+
+.passion {
+  background-color: #262626;
+  color:azure;
+  border: #262626;
+}
+
+.future {
+  background-color: #b65217;
+}
+
 .past h1 {
       margin-top: 50px;
-
+      margin-bottom: -5px;
 }
 
 .passion h1 {
@@ -101,34 +101,26 @@ article h2 {
 }
 
 .future p {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   text-align: center;
-  padding: 20px;
-}
-
-.past {
-  background-color: #b65217;
-}
-
-.passion {
-  background-color: #262626;
-  color:azure;
-  border: #262626;
-}
-
-.future {
-  background-color: #b65217;
+  padding: 10px;
 }
 
 ul li  {
   text-align: center;
-  list-style-image: url('images/131221.svg');
+  display: list-item;
+  list-style-image: url(../images/131221.svg);
   margin-bottom: 20px;
 }
 
 #insta {
   height: 38px;
   width: 38px;
+}
+
+.concert {
+  margin-top: 20px;
+  font-family: 'Concert One', sans-serif;
 }
 
 footer {
