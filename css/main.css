@@ -1,128 +1,66 @@
+
 body {
-  background-color: #b65217;
-}
-
-header {
-  background-color: #262626;
-  height: 50px;
-  color: orange;
-  margin-bottom: 30px;
-}
-
-.font {
-  font-family: 'Muli', sans-serif;
-}
-
-.lato {
+  background: url("../images/sunrock.jpg") no-repeat;
   font-family: 'Lato', sans-serif;
+  text-align: center;
+  background-size: 1000%;
+
 }
 
-header h1 {
-  float: left;
-  font-size: 35px;
-  text-indent: 0px;
-  background: url('images/hipsterlogogenerator_1475945265458.png') no-repeat;
-  display: inline-block;
-  margin: 20px 20px;
+h1 {
+  font-family: "BioRhyme", serif;
+  font-size: 6em;
+  margin-top: 30px;
+
 }
 
-header h2 {
-  text-indent: -40px;
-  padding: 10px;
-  display: inline-block;
+h2 {
+  font-family: "Lato", serif;
+  font-size: 4em;
 }
 
-nav {
-  float:right;
+p, ul, li, h2, .navs {
+  margin: 15px;
+  padding: 5px;
+  font-size: 1.2em;
+  line-height: 1.5em
 }
 
-nav a {
+ul {
+  padding-left: 0px;
+  margin-left: 0px;
+  list-style-type: none;
+}
+
+li {
+  background: url("../images/131221.svg") left top no-repeat;
+  padding-left: 0px;
+  margin-left:  0px;
+}
+
+.underlines {
+  font-family: "Lato", serif;
+  border-bottom: 4px solid #FF8B2A;
+}
+
+.navs {
   text-decoration: none;
-  color: #b65217;
-  padding: 17px 10px;
-  display: inline-block;
+  font-size: 3em;
+  color: inherit;
+  transition-duration: 2s;
 }
 
-nav a:hover {
-  text-decoration: none;
-  color: #262626;
-  background-color: azure;
+.navs:hover {
+  color: #FF8B2A;
+  font-size: 3em;
 }
 
-article h1 {
-  font-size: 40px;
-  color: #262626;
-  text-align: center;
-  margin: 20px 20px;
-}
-
-.past {
-  background-color: #b65217;
-}
-
-.passion {
-  background-color: #262626;
-  color:azure;
-  border: #262626;
-}
-
-.future {
-  background-color: #b65217;
-}
-
-.past h1 {
-      margin-top: 50px;
-      margin-bottom: -5px;
-}
-
-.passion h1 {
-  font-size: 40px;
-  color: azure;
-  text-align: center;
-  padding-top: 20px
-}
-
-article h2 {
-  font-size: 30px;
-}
-
-.past p {
-  margin-bottom: 20px;
-  text-align: center;
-  padding: 10px;
-  display: block;
-}
-
-.passion p {
-  margin-top: -20px;
-  text-align: center;
-  padding: 10px;
-
-}
-
-.future p {
-  margin-bottom: 20px;
-  text-align: center;
-  padding: 10px;
-}
-
-ul li  {
-  text-align: center;
-  display: list-item;
-  list-style-image: url(../images/131221.svg);
-  margin-bottom: 20px;
-}
-
-#insta {
-  height: 38px;
-  width: 38px;
-}
-
-.concert {
-  margin-top: 20px;
-  font-family: 'Concert One', sans-serif;
+#insta, #tweet, #linkedin {
+  height: 3.8em;
+  width: 3.8em;
+  margin: 0px 20px 20px 20px;
 }
 
 footer {
-  text-align: center;
+  margin: 25px;
 }
