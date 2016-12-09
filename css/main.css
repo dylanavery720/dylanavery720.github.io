@@ -19,26 +19,25 @@ h2 {
   font-size: 4em;
 }
 
-p, li, h2, .navs {
-  margin: 5px;
-  padding: 10px;
+p, ul, h2, .navs {
+  margin: 15px;
+  padding: 5px;
   font-size: 1.2em;
-  line-height: 1.4em
+  line-height: 1.5em
 }
 
 ul {
-  padding-left: 10px;
-  margin: 15px auto;
+  padding: 0px;
+  margin: 40px;
   list-style-type: none;
-  width: 300px;
-  text-align: center;
 }
 
 li {
-  background: url("../images/131221.svg") left top no-repeat;
-  height: 2px;
+  background: url("../images/131221.svg") no-repeat;
   padding-left: 0px;
-  margin-left:  0px;
+  margin:  10px auto;
+  width: 35%;
+  display: block;
 }
 
 .underlines {
@@ -50,7 +49,7 @@ li {
   text-decoration: none;
   font-size: 3em;
   color: inherit;
-  transition-duration: 1s;
+  transition-duration: 2s;
 }
 
 .navs:hover {
