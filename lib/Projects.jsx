@@ -8,6 +8,30 @@ export default class Projects extends React.Component {
     return (
       <section class='cards'>
         <Card
+        title='Shoot The Breeze'
+        link='dylanavery720/shoot-the-breeze'
+        id='shoot-the-breeze'
+        screenshot='../images/frogger.png'
+        />
+        <Card
+        title='Weather Beat'
+        link='dylanavery720/weatherly'
+        id='weather-beat'
+        screenshot='../images/frogger.png'
+        />
+        <Card
+        title='Optimal Aging Coach'
+        link='http://www.optimalagingcoach.com'
+        id='optimal-aging-coach'
+        screenshot='../images/frogger.png'
+        />
+        <Card
+        title='Number Guesser'
+        link='dylanavery720/number-guesser-react'
+        id='number-guesser'
+        screenshot='../images/2doBox.png'
+        />
+        <Card
         title='Frogger'
         link='jksmall0631/frogger'
         id='frogger'
@@ -16,8 +40,8 @@ export default class Projects extends React.Component {
         <Card
         title='2DoBox'
         link='dylanavery720/2DoBoxPivot'
-        id='dobox'
-        screenshot='../images/2dobox.png'
+        id='2dobox'
+        screenshot='../images/2doBox.png'
         />
       </section>
 )
