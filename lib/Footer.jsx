@@ -1,23 +1,20 @@
 import React from 'react'
-
+import Social from 'social'
 
 export default class Footer extends React.Component {
 
-render() {
-  return(
+  render() {
+    return (
     <footer id='contact'>
-      <a href='https://www.linkedin.com/in/dylan-avery-17336055'>
-        <img src='images/linkedin.png' alt='LinkedIn Logo' id='linkedin'/>
-      </a>
-      <a href='https://twitter.com/dylanavery720' className='twitter-follow-button' data-show-count='false'>
-        <img src='images/black_twitter.png' alt='Twitter.com/dylanavery720'/>
-      </a>
-      <a href="https://www.instagram.com/coloradodylan/" target='_blank'>
-        <img src="http://freevector.co/wp-content/uploads/2013/10/87390-instagram-logo-200x200.png" alt="Instagram Logo" />
-      </a>
-      <p className='concert'>&copy; Copyright 2016 Dylan Avery</p>
-      <img id='logo' src='../images/hipsterlogogenerator.png'/>
+    <Social link='https://twitter.com/dylanavery720' icon='images/black_twitter.png'
+    alt='twitter.com/dylanavery720'/>
+    <Social link='https://www.linkedin.com/in/dylan-avery-17336055' icon='images/linkedin.png'
+    alt='LinkedIn Logo'/>
+    <Social link='https://www.instagram.com/coloradodylan/' icon='https://freevector.co/wp-content/uploads/2013/10/87390-instagram-logo-200x200.png'
+    alt='Instagram Logo'/>
+    <p className='concert'>&copy; Copyright 2016 Dylan Avery</p>
+    <img id='logo' src='../images/hipsterlogogenerator.png'/>
     </footer>
 )
-}
+  }
 }
