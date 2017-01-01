@@ -6,7 +6,7 @@ export default class Projects extends React.Component {
 
   render() {
     return (
-      <section class='cards'>
+      <section>
         <Card
         title='Shoot The Breeze'
         link='dylanavery720/shoot-the-breeze'

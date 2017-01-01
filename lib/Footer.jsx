@@ -10,13 +10,13 @@ render() {
         <img src='images/linkedin.png' alt='LinkedIn Logo' id='linkedin'/>
       </a>
       <a href='https://twitter.com/dylanavery720' className='twitter-follow-button' data-show-count='false'>
-        <img src='images/black_twitter.png' alt='Twitter.com/dylanavery720' id='tweet'/>
+        <img src='images/black_twitter.png' alt='Twitter.com/dylanavery720'/>
       </a>
       <a href="https://www.instagram.com/coloradodylan/" target='_blank'>
-        <img src="http://freevector.co/wp-content/uploads/2013/10/87390-instagram-logo-200x200.png" alt="Instagram Logo" id='insta'/>
+        <img src="http://freevector.co/wp-content/uploads/2013/10/87390-instagram-logo-200x200.png" alt="Instagram Logo" />
       </a>
       <p className='concert'>&copy; Copyright 2016 Dylan Avery</p>
-      <img src='../images/hipsterlogogenerator.png'/>
+      <img id='logo' src='../images/hipsterlogogenerator.png'/>
     </footer>
 )
 }
