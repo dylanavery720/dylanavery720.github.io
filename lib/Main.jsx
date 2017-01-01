@@ -11,22 +11,28 @@ export default class Main extends React.Component {
     super()
     this.state = {
       about: false,
+      projects: false,
     }
-    this.shower = this.shower.bind(this)
+    this.showAbout = this.showAbout.bind(this)
+    this.showProj = this.showProj.bind(this)
   }
 
-  shower() {
-    console.log('clicked')
-    this.setState({ about: true })
+  showAbout() {
+    this.setState({ about: true, projects: false })
+  }
+
+  showProj() {
+    this.setState({ projects: true, about: false })
   }
 
   render() {
     return (
     <section id="landing">
       <h1>Dylan P. Avery</h1>
-        <Nav text='About' handleClick={this.shower}/>
+        <Nav text='About' handleClick={this.showAbout}/>
+        <Nav text='Projects' handleClick={this.showProj}/>
       { this.state.about && <About /> }
-        <Projects />
+      { this.state.projects && <Projects /> }
         <Footer />
     </section>
   )
