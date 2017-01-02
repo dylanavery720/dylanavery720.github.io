@@ -11,15 +11,15 @@ export default class Projects extends React.Component {
         title='Shoot The Breeze'
         link='dylanavery720/shoot-the-breeze'
         id='shoot-the-breeze'
-        screenshot='../images/frogger.png'
+        screenshot='../images/breeze.png'
         />
         <Card
         title='Weather Beat'
         link='dylanavery720/weatherly'
         id='weather-beat'
-        screenshot='../images/frogger.png'
+        screenshot='../images/weather.png'
         />
-        <Card
+        {/* <Card
         title='Optimal Aging Coach'
         link='http://www.optimalagingcoach.com'
         id='optimal-aging-coach'
@@ -30,7 +30,7 @@ export default class Projects extends React.Component {
         link='dylanavery720/number-guesser-react'
         id='number-guesser'
         screenshot='../images/2doBox.png'
-        />
+        /> */}
         <Card
         title='Frogger'
         link='jksmall0631/frogger'
