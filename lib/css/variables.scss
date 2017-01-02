@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Asul:200,400,600|Chivo:200,400,600');
+
 $bodycolor: beige;
+$hovercolor: rebeccapurple;
 
 
 
@@ -10,10 +13,11 @@ $medium: 400;
 $bold: 600;
 
 
+
 @mixin sub-header {
   font-family: $sans;
   font-weight: $light;
   margin: 15px;
   padding: 5px;
-  line-height: 1.5em;
+  line-height: 1.2em;
 }

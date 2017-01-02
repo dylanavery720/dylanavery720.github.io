@@ -1,3 +1,6 @@
+@import './variables.scss';
+
+
 body {
   background: $bodycolor;
   font-family: $sans;
@@ -13,7 +16,7 @@ h1 {
 
 h2 {
   font-family: $serif;
-  margin-top: 30px;
+  margin: 30px;
   font-size: 4em;
 }
 
