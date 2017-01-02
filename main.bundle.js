@@ -29744,25 +29744,13 @@
 	          title: 'Shoot The Breeze',
 	          link: 'dylanavery720/shoot-the-breeze',
 	          id: 'shoot-the-breeze',
-	          screenshot: '../images/frogger.png'
+	          screenshot: '../images/breeze.png'
 	        }),
 	        _react2.default.createElement(_Card2.default, {
 	          title: 'Weather Beat',
 	          link: 'dylanavery720/weatherly',
 	          id: 'weather-beat',
-	          screenshot: '../images/frogger.png'
-	        }),
-	        _react2.default.createElement(_Card2.default, {
-	          title: 'Optimal Aging Coach',
-	          link: 'http://www.optimalagingcoach.com',
-	          id: 'optimal-aging-coach',
-	          screenshot: '../images/frogger.png'
-	        }),
-	        _react2.default.createElement(_Card2.default, {
-	          title: 'Number Guesser',
-	          link: 'dylanavery720/number-guesser-react',
-	          id: 'number-guesser',
-	          screenshot: '../images/2doBox.png'
+	          screenshot: '../images/weather.png'
 	        }),
 	        _react2.default.createElement(_Card2.default, {
 	          title: 'Frogger',
