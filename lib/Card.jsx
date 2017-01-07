@@ -7,7 +7,7 @@ export default class Card extends React.Component {
     return (
       <article className='cards'>
         <h4 className="underlines">{this.props.title} (GitHub)</h4>
-        <a href={`http://github.com/ + ${this.props.link}`} target='_blank'>
+        <a href={'http://github.com/' + this.props.link} target='_blank'>
         <img className='screens'
         id={this.props.id}
         src={this.props.screenshot}

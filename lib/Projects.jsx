@@ -33,7 +33,7 @@ export default class Projects extends React.Component {
         /> */}
         <Card
         title='Frogger'
-        link='jksmall0631/frogger'
+        link='dylanavery720/frogger'
         id='frogger'
         screenshot='../images/frogger.png'
         />
