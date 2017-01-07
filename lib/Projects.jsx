@@ -19,18 +19,18 @@ export default class Projects extends React.Component {
         id='weather-beat'
         screenshot='../images/weather.png'
         />
-        {/* <Card
+        <Card
         title='Optimal Aging Coach'
-        link='http://www.optimalagingcoach.com'
+        link='dylanavery720/optimal-aging-coach'
         id='optimal-aging-coach'
-        screenshot='../images/frogger.png'
+        screenshot='../images/oac.png'
         />
         <Card
         title='Number Guesser'
         link='dylanavery720/number-guesser-react'
         id='number-guesser'
-        screenshot='../images/2doBox.png'
-        /> */}
+        screenshot='../images/number-guesser-react.png'
+        />
         <Card
         title='Frogger'
         link='dylanavery720/frogger'
