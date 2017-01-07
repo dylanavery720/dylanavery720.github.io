@@ -29627,6 +29627,7 @@
 	      return _react2.default.createElement(
 	        'footer',
 	        { id: 'contact' },
+	        _react2.default.createElement('img', { id: 'logo', src: '../images/hipsterlogogenerator.png' }),
 	        _react2.default.createElement(_Social2.default, { link: 'https://twitter.com/dylanavery720', icon: 'images/black_twitter.png',
 	          alt: 'twitter.com/dylanavery720' }),
 	        _react2.default.createElement(_Social2.default, { link: 'https://www.linkedin.com/in/dylan-avery-17336055', icon: 'images/linkedin.png',
@@ -29637,8 +29638,7 @@
 	          'p',
 	          { className: 'concert' },
 	          '\xA9 Copyright 2016 Dylan Avery'
-	        ),
-	        _react2.default.createElement('img', { id: 'logo', src: '../images/hipsterlogogenerator.png' })
+	        )
 	      );
 	    }
 	  }]);
@@ -29753,8 +29753,20 @@
 	          screenshot: '../images/weather.png'
 	        }),
 	        _react2.default.createElement(_Card2.default, {
+	          title: 'Optimal Aging Coach',
+	          link: 'dylanavery720/optimal-aging-coach',
+	          id: 'optimal-aging-coach',
+	          screenshot: '../images/oac.png'
+	        }),
+	        _react2.default.createElement(_Card2.default, {
+	          title: 'Number Guesser',
+	          link: 'dylanavery720/number-guesser-react',
+	          id: 'number-guesser',
+	          screenshot: '../images/number-guesser-react.png'
+	        }),
+	        _react2.default.createElement(_Card2.default, {
 	          title: 'Frogger',
-	          link: 'jksmall0631/frogger',
+	          link: 'dylanavery720/frogger',
 	          id: 'frogger',
 	          screenshot: '../images/frogger.png'
 	        }),
@@ -29820,7 +29832,7 @@
 	        ),
 	        _react2.default.createElement(
 	          'a',
-	          { href: 'http://github.com/ + ' + this.props.link, target: '_blank' },
+	          { href: 'http://github.com/' + this.props.link, target: '_blank' },
 	          _react2.default.createElement('img', { className: 'screens',
 	            id: this.props.id,
 	            src: this.props.screenshot,
