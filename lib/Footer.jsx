@@ -6,7 +6,6 @@ export default class Footer extends React.Component {
   render() {
     return (
     <footer id='contact'>
-    <img id='logo' src='../images/hipsterlogogenerator.png'/>
     <Social link='https://twitter.com/dylanavery720' icon='images/black_twitter.png'
     alt='twitter.com/dylanavery720'/>
     <Social link='https://www.linkedin.com/in/dylan-avery-17336055' icon='images/linkedin.png'

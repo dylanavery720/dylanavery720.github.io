@@ -29627,7 +29627,6 @@
 	      return _react2.default.createElement(
 	        'footer',
 	        { id: 'contact' },
-	        _react2.default.createElement('img', { id: 'logo', src: '../images/hipsterlogogenerator.png' }),
 	        _react2.default.createElement(_Social2.default, { link: 'https://twitter.com/dylanavery720', icon: 'images/black_twitter.png',
 	          alt: 'twitter.com/dylanavery720' }),
 	        _react2.default.createElement(_Social2.default, { link: 'https://www.linkedin.com/in/dylan-avery-17336055', icon: 'images/linkedin.png',
