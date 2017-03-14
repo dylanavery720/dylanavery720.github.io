@@ -6,8 +6,8 @@ export default class Skills extends React.Component {
     return (
     <section id="skills">
       <h2>Technical Skills</h2>
-      <p>React/JQuery/JavaScript/Responsive/Webpack/TDD/Enzyme/
-      Mocha/HTML/CSS/SASS/Sketch/Git/GitHub</p>
+      <p>React/Redux/Express/JQuery/JavaScript/Responsive/Webpack/Enzyme/AGILE/
+      Mocha/HTML/CSS/SASS/Sketch/Git</p>
     </section>
   )
   }

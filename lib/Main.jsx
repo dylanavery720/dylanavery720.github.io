@@ -29,6 +29,7 @@ export default class Main extends React.Component {
     return (
     <section id="landing">
       <h1>Dylan P. Avery</h1>
+      <h4>"Web Developer"</h4>
         <Nav text='About' handleClick={this.showAbout}/>
         <Nav text='Projects' handleClick={this.showProj}/>
       { this.state.about && <About /> }
