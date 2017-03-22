@@ -12153,6 +12153,11 @@
 	          null,
 	          'Dylan P. Avery'
 	        ),
+	        _react2.default.createElement(
+	          'h4',
+	          null,
+	          '"Web Developer"'
+	        ),
 	        _react2.default.createElement(_Nav2.default, { text: 'About', handleClick: this.showAbout }),
 	        _react2.default.createElement(_Nav2.default, { text: 'Projects', handleClick: this.showProj }),
 	        this.state.about && _react2.default.createElement(_About2.default, null),
@@ -29740,38 +29745,50 @@
 	        'section',
 	        null,
 	        _react2.default.createElement(_Card2.default, {
-	          title: 'Shoot The Breeze',
-	          link: 'dylanavery720/shoot-the-breeze',
-	          id: 'shoot-the-breeze',
-	          screenshot: '../images/breeze.png'
+	          title: 'Shanagolden Management',
+	          link: 'http://www.shanagoldenmanagement.com',
+	          id: 'shanagolden-management',
+	          screenshot: '../images/shana.png'
 	        }),
 	        _react2.default.createElement(_Card2.default, {
-	          title: 'Weather Beat',
-	          link: 'dylanavery720/weatherly',
-	          id: 'weather-beat',
-	          screenshot: '../images/weather.png'
+	          title: 'Health and Happiness',
+	          link: 'http://www.healthandhappinessllc.org',
+	          id: 'health-and-happiness',
+	          screenshot: '../images/health.png'
 	        }),
 	        _react2.default.createElement(_Card2.default, {
-	          title: 'Optimal Aging Coach',
-	          link: 'dylanavery720/optimal-aging-coach',
-	          id: 'optimal-aging-coach',
-	          screenshot: '../images/oac.png'
-	        }),
-	        _react2.default.createElement(_Card2.default, {
-	          title: 'Number Guesser',
-	          link: 'dylanavery720/number-guesser-react',
-	          id: 'number-guesser',
-	          screenshot: '../images/number-guesser-react.png'
-	        }),
-	        _react2.default.createElement(_Card2.default, {
-	          title: 'Frogger',
-	          link: 'dylanavery720/frogger',
+	          title: 'Frogger (Repo)',
+	          link: 'http://github.com/dylanavery720/frogger',
 	          id: 'frogger',
 	          screenshot: '../images/frogger.png'
 	        }),
 	        _react2.default.createElement(_Card2.default, {
-	          title: '2DoBox',
-	          link: 'dylanavery720/2DoBoxPivot',
+	          title: 'Weather Beat (Repo)',
+	          link: 'http://github.com/dylanavery720/weatherly',
+	          id: 'weather-beat',
+	          screenshot: '../images/weather.png'
+	        }),
+	        _react2.default.createElement(_Card2.default, {
+	          title: 'Shoot The Breeze (Repo)',
+	          link: 'http://github.com/dylanavery720/shoot-the-breeze',
+	          id: 'shoot-the-breeze',
+	          screenshot: '../images/breeze.png'
+	        }),
+	        _react2.default.createElement(_Card2.default, {
+	          title: 'Optimal Aging Coach',
+	          link: 'http://optimalagingcoach.com/',
+	          id: 'optimal-aging-coach',
+	          screenshot: '../images/oac.png'
+	        }),
+	        _react2.default.createElement(_Card2.default, {
+	          title: 'Number Guesser (Repo)',
+	          link: 'http://github.com/dylanavery720/number-guesser-react',
+	          id: 'number-guesser',
+	          screenshot: '../images/number-guesser-react.png'
+	        }),
+	        _react2.default.createElement(_Card2.default, {
+	          title: '2DoBox (Repo)',
+	          link: 'http://github.com/dylanavery720/2DoBoxPivot',
 	          id: '2dobox',
 	          screenshot: '../images/2doBox.png'
 	        })
@@ -29826,12 +29843,11 @@
 	        _react2.default.createElement(
 	          'h4',
 	          { className: 'underlines' },
-	          this.props.title,
-	          ' (GitHub)'
+	          this.props.title
 	        ),
 	        _react2.default.createElement(
 	          'a',
-	          { href: 'http://github.com/' + this.props.link, target: '_blank' },
+	          { href: this.props.link, target: '_blank' },
 	          _react2.default.createElement('img', { className: 'screens',
 	            id: this.props.id,
 	            src: this.props.screenshot,
@@ -30009,7 +30025,7 @@
 	        _react2.default.createElement(
 	          "p",
 	          null,
-	          "React/JQuery/JavaScript/Responsive/Webpack/TDD/Enzyme/ Mocha/HTML/CSS/SASS/Sketch/Git/GitHub"
+	          "React/Redux/Express/JQuery/JavaScript/Responsive/Webpack/Enzyme/AGILE/ Mocha/HTML/CSS/SASS/Sketch/Git"
 	        )
 	      );
 	    }
