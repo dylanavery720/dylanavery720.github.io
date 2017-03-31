@@ -1,0 +1,35 @@
+@import './variables.scss';
+
+
+body {
+  background: $bodycolor;
+  font-family: $sans;
+  text-align: center;
+  font-weight: $medium;
+}
+
+h1 {
+  font-family: $serif;
+  margin-top: 30px;
+  font-size: 6em;
+}
+
+h2 {
+  font-family: $serif;
+  margin: 30px;
+  font-size: 4em;
+}
+
+h3 {
+  font-size: 3em;
+  @include sub-header;
+}
+
+h4 {
+  font-size: 2em;
+  @include sub-header;
+}
+
+footer {
+  margin: 25px;
+}

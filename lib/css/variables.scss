@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Asul:200,400,600|Chivo:200,400,600');
+
+$bodycolor: rgba(245, 242, 222, 0.9);
+$hovercolor: rebeccapurple;
+
+
+
+
+$serif: "Asul", serif;
+$sans: 'Chivo', sans-serif;
+$light: 200;
+$medium: 400;
+$bold: 600;
+
+
+
+@mixin sub-header {
+  font-family: $sans;
+  font-weight: $light;
+  margin: 15px;
+  padding: 5px;
+  line-height: 1.2em;
+}

@@ -1,0 +1,46 @@
+@import './variables.scss';
+
+
+.underlines {
+  font-family: $serif;
+  border-bottom: 2px solid #000000;
+  width: 40%;
+  margin: 10px auto;
+}
+
+.cards {
+  position: relative;
+  display: inline-block;
+  height: 40%;
+  width: 40%
+}
+
+.navlink {
+  display: inline-block;
+  text-decoration: none;
+  transition-duration: 50ms;
+  &:hover {
+    cursor: pointer;
+    color: $hovercolor;
+  }
+}
+
+#logo {
+  height: 350px;
+  width: 350px;
+}
+
+.social {
+  height: 3.8em;
+  width: 3.8em;
+  margin: 0px 20px 20px 20px;
+}
+
+.screens {
+  height: 300px;
+  width: 350px;
+}
+
+// #application {
+//   background: $bodycolor;
+// }
