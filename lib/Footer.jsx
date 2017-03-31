@@ -12,7 +12,9 @@ export default class Footer extends React.Component {
     alt='LinkedIn Logo'/>
     <Social link='https://www.instagram.com/coloradodylan/' icon='https://freevector.co/wp-content/uploads/2013/10/87390-instagram-logo-200x200.png'
     alt='Instagram Logo'/>
-    <p className='concert'>&copy; Copyright 2016 Dylan Avery</p>
+    <Social link='https://medium.com/@dylanavery720' icon='images/medium.png'
+    alt='Medium Logo'/>
+    <p className='concert'>&copy; Copyright 2017 Dylan Avery</p>
     </footer>
 )
   }
