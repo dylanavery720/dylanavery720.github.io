@@ -8204,8 +8204,8 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	__webpack_require__(484);
-	__webpack_require__(488);
+	__webpack_require__(485);
+	__webpack_require__(489);
 
 /***/ },
 /* 299 */
@@ -12107,6 +12107,10 @@
 
 	var _About2 = _interopRequireDefault(_About);
 
+	var _Contact = __webpack_require__(484);
+
+	var _Contact2 = _interopRequireDefault(_Contact);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -12125,22 +12129,29 @@
 
 	    _this.state = {
 	      about: false,
-	      projects: false
+	      projects: false,
+	      contact: false
 	    };
 	    _this.showAbout = _this.showAbout.bind(_this);
 	    _this.showProj = _this.showProj.bind(_this);
+	    _this.showContact = _this.showContact.bind(_this);
 	    return _this;
 	  }
 
 	  _createClass(Main, [{
 	    key: 'showAbout',
 	    value: function showAbout() {
-	      this.setState({ about: true, projects: false });
+	      this.setState({ about: true, projects: false, contact: false });
 	    }
 	  }, {
 	    key: 'showProj',
 	    value: function showProj() {
-	      this.setState({ projects: true, about: false });
+	      this.setState({ projects: true, about: false, contact: false });
+	    }
+	  }, {
+	    key: 'showContact',
+	    value: function showContact() {
+	      this.setState({ contact: true, projects: false, about: false });
 	    }
 	  }, {
 	    key: 'render',
@@ -12160,8 +12171,10 @@
 	        ),
 	        _react2.default.createElement(_Nav2.default, { text: 'About', handleClick: this.showAbout }),
 	        _react2.default.createElement(_Nav2.default, { text: 'Projects', handleClick: this.showProj }),
+	        _react2.default.createElement(_Nav2.default, { text: 'Contact', handleClick: this.showContact }),
 	        this.state.about && _react2.default.createElement(_About2.default, null),
 	        this.state.projects && _react2.default.createElement(_Projects2.default, null),
+	        this.state.contact && _react2.default.createElement(_Contact2.default, null),
 	        _react2.default.createElement(_Footer2.default, null)
 	      );
 	    }
@@ -29638,10 +29651,12 @@
 	          alt: 'LinkedIn Logo' }),
 	        _react2.default.createElement(_Social2.default, { link: 'https://www.instagram.com/coloradodylan/', icon: 'https://freevector.co/wp-content/uploads/2013/10/87390-instagram-logo-200x200.png',
 	          alt: 'Instagram Logo' }),
+	        _react2.default.createElement(_Social2.default, { link: 'https://medium.com/@dylanavery720', icon: 'images/medium.png',
+	          alt: 'Medium Logo' }),
 	        _react2.default.createElement(
 	          'p',
 	          { className: 'concert' },
-	          '\xA9 Copyright 2016 Dylan Avery'
+	          '\xA9 Copyright 2017 Dylan Avery'
 	        )
 	      );
 	    }
@@ -30040,13 +30055,71 @@
 /* 484 */
 /***/ function(module, exports, __webpack_require__) {
 
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(299);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Contact = function (_React$Component) {
+	  _inherits(Contact, _React$Component);
+
+	  function Contact() {
+	    _classCallCheck(this, Contact);
+
+	    return _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).apply(this, arguments));
+	  }
+
+	  _createClass(Contact, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'section',
+	        null,
+	        _react2.default.createElement(
+	          'h3',
+	          null,
+	          'email: fossilfuelmusic at gmail dot com'
+	        ),
+	        _react2.default.createElement(
+	          'h3',
+	          null,
+	          'phone: 720-937-0231'
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Contact;
+	}(_react2.default.Component);
+
+	exports.default = Contact;
+
+/***/ },
+/* 485 */
+/***/ function(module, exports, __webpack_require__) {
+
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(485);
+	var content = __webpack_require__(486);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(487)(content, {});
+	var update = __webpack_require__(488)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -30063,10 +30136,10 @@
 	}
 
 /***/ },
-/* 485 */
+/* 486 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(486)();
+	exports = module.exports = __webpack_require__(487)();
 	// imports
 
 
@@ -30077,7 +30150,7 @@
 
 
 /***/ },
-/* 486 */
+/* 487 */
 /***/ function(module, exports) {
 
 	/*
@@ -30133,7 +30206,7 @@
 
 
 /***/ },
-/* 487 */
+/* 488 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
@@ -30385,16 +30458,16 @@
 
 
 /***/ },
-/* 488 */
+/* 489 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(489);
+	var content = __webpack_require__(490);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(487)(content, {});
+	var update = __webpack_require__(488)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -30411,15 +30484,15 @@
 	}
 
 /***/ },
-/* 489 */
+/* 490 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(486)();
+	exports = module.exports = __webpack_require__(487)();
 	// imports
 	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Asul:200,400,600|Chivo:200,400,600);", ""]);
 
 	// module
-	exports.push([module.id, "body {\n  background: beige;\n  font-family: \"Chivo\", sans-serif;\n  text-align: center;\n  font-weight: 400; }\n\nh1 {\n  font-family: \"Asul\", serif;\n  margin-top: 30px;\n  font-size: 6em; }\n\nh2 {\n  font-family: \"Asul\", serif;\n  margin: 30px;\n  font-size: 4em; }\n\nh3 {\n  font-size: 3em;\n  font-family: \"Chivo\", sans-serif;\n  font-weight: 200;\n  margin: 15px;\n  padding: 5px;\n  line-height: 1.2em; }\n\nh4 {\n  font-size: 2em;\n  font-family: \"Chivo\", sans-serif;\n  font-weight: 200;\n  margin: 15px;\n  padding: 5px;\n  line-height: 1.2em; }\n\nfooter {\n  margin: 25px; }\n\n.underlines {\n  font-family: \"Asul\", serif;\n  border-bottom: 2px solid #000000;\n  width: 40%;\n  margin: 10px auto; }\n\n.cards {\n  position: relative;\n  display: inline-block;\n  height: 40%;\n  width: 40%; }\n\n.navlink {\n  display: inline-block;\n  text-decoration: none;\n  transition-duration: 50ms; }\n  .navlink:hover {\n    cursor: pointer;\n    color: rebeccapurple; }\n\n#logo {\n  height: 350px;\n  width: 350px; }\n\n.social {\n  height: 3.8em;\n  width: 3.8em;\n  margin: 0px 20px 20px 20px; }\n\n.screens {\n  height: 300px;\n  width: 350px; }\n", ""]);
+	exports.push([module.id, "body {\n  background: rgba(245, 242, 222, 0.9);\n  font-family: \"Chivo\", sans-serif;\n  text-align: center;\n  font-weight: 400; }\n\nh1 {\n  font-family: \"Asul\", serif;\n  margin-top: 30px;\n  font-size: 6em; }\n\nh2 {\n  font-family: \"Asul\", serif;\n  margin: 30px;\n  font-size: 4em; }\n\nh3 {\n  font-size: 3em;\n  font-family: \"Chivo\", sans-serif;\n  font-weight: 200;\n  margin: 15px;\n  padding: 5px;\n  line-height: 1.2em; }\n\nh4 {\n  font-size: 2em;\n  font-family: \"Chivo\", sans-serif;\n  font-weight: 200;\n  margin: 15px;\n  padding: 5px;\n  line-height: 1.2em; }\n\nfooter {\n  margin: 25px; }\n\n.underlines {\n  font-family: \"Asul\", serif;\n  border-bottom: 2px solid #000000;\n  width: 40%;\n  margin: 10px auto; }\n\n.cards {\n  position: relative;\n  display: inline-block;\n  height: 40%;\n  width: 40%; }\n\n.navlink {\n  display: inline-block;\n  text-decoration: none;\n  transition-duration: 50ms; }\n  .navlink:hover {\n    cursor: pointer;\n    color: rebeccapurple; }\n\n#logo {\n  height: 350px;\n  width: 350px; }\n\n.social {\n  height: 3.8em;\n  width: 3.8em;\n  margin: 0px 20px 20px 20px; }\n\n.screens {\n  height: 300px;\n  width: 350px; }\n", ""]);
 
 	// exports
 
