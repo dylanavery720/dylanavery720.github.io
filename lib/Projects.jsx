@@ -26,8 +26,8 @@ export default class Projects extends React.Component {
           screenshot='../images/frogger.png'
         />
         <Card
-          title='Weather Beat (Repo)'
-          link='http://github.com/dylanavery720/weatherly'
+          title='Weather Beat'
+          link='https://dylanavery720.github.io/weatherly/'
           id='weather-beat'
           screenshot='../images/weather.png'
         />
