@@ -32,8 +32,8 @@ export default class Projects extends React.Component {
           screenshot='../images/weather.png'
         />
         <Card
-          title='Shoot The Breeze (Repo)'
-          link='http://github.com/dylanavery720/shoot-the-breeze'
+          title='Shoot The Breeze'
+          link='https://shoot-the-breeze-93d19.firebaseapp.com/'
           id='shoot-the-breeze'
           screenshot='../images/breeze.png'
         />
