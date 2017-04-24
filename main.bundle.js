@@ -29760,18 +29760,6 @@
 	        'section',
 	        null,
 	        _react2.default.createElement(_Card2.default, {
-	          title: 'Shanagolden Management',
-	          link: 'http://www.shanagoldenmanagement.com',
-	          id: 'shanagolden-management',
-	          screenshot: '../images/shana.png'
-	        }),
-	        _react2.default.createElement(_Card2.default, {
-	          title: 'Health and Happiness',
-	          link: 'http://www.healthandhappinessllc.org',
-	          id: 'health-and-happiness',
-	          screenshot: '../images/health.png'
-	        }),
-	        _react2.default.createElement(_Card2.default, {
 	          title: 'Frogger',
 	          link: 'https://dylanavery720.github.io/frogger',
 	          id: 'frogger',
@@ -29782,6 +29770,18 @@
 	          link: 'https://dylanavery720.github.io/weatherly/',
 	          id: 'weather-beat',
 	          screenshot: '../images/weather.png'
+	        }),
+	        _react2.default.createElement(_Card2.default, {
+	          title: 'Future Grooves',
+	          link: 'http://futuregrooves.herokuapp.com/',
+	          id: 'future-grooves',
+	          screenshot: '../images/futuregrooves.png'
+	        }),
+	        _react2.default.createElement(_Card2.default, {
+	          title: 'Quasimoto (Static Comp)',
+	          link: 'https://dylanavery720.github.io/quasimoto/',
+	          id: 'quasimoto',
+	          screenshot: '../images/quasimoto.png'
 	        }),
 	        _react2.default.createElement(_Card2.default, {
 	          title: 'Shoot The Breeze',
@@ -29796,16 +29796,16 @@
 	          screenshot: '../images/oac.png'
 	        }),
 	        _react2.default.createElement(_Card2.default, {
-	          title: 'Number Guesser (Repo)',
-	          link: 'http://github.com/dylanavery720/number-guesser-react',
-	          id: 'number-guesser',
-	          screenshot: '../images/number-guesser-react.png'
+	          title: 'Shanagolden Management',
+	          link: 'http://www.shanagoldenmanagement.com',
+	          id: 'shanagolden-management',
+	          screenshot: '../images/shana.png'
 	        }),
 	        _react2.default.createElement(_Card2.default, {
-	          title: 'Quasimoto (Static Comp)',
-	          link: 'https://dylanavery720.github.io/quasimoto/',
-	          id: 'quasimoto',
-	          screenshot: '../images/quasimoto.png'
+	          title: 'Health and Happiness',
+	          link: 'http://www.healthandhappinessllc.org',
+	          id: 'health-and-happiness',
+	          screenshot: '../images/health.png'
 	        })
 	      );
 	    }
