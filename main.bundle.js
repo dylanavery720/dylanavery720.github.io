@@ -29772,8 +29772,8 @@
 	          screenshot: '../images/health.png'
 	        }),
 	        _react2.default.createElement(_Card2.default, {
-	          title: 'Frogger (Repo)',
-	          link: 'http://github.com/dylanavery720/frogger',
+	          title: 'Frogger',
+	          link: 'https://dylanavery720.github.io/frogger',
 	          id: 'frogger',
 	          screenshot: '../images/frogger.png'
 	        }),
