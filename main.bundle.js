@@ -29778,14 +29778,14 @@
 	          screenshot: '../images/frogger.png'
 	        }),
 	        _react2.default.createElement(_Card2.default, {
-	          title: 'Weather Beat (Repo)',
-	          link: 'http://github.com/dylanavery720/weatherly',
+	          title: 'Weather Beat',
+	          link: 'https://dylanavery720.github.io/weatherly/',
 	          id: 'weather-beat',
 	          screenshot: '../images/weather.png'
 	        }),
 	        _react2.default.createElement(_Card2.default, {
-	          title: 'Shoot The Breeze (Repo)',
-	          link: 'http://github.com/dylanavery720/shoot-the-breeze',
+	          title: 'Shoot The Breeze',
+	          link: 'https://shoot-the-breeze-93d19.firebaseapp.com/',
 	          id: 'shoot-the-breeze',
 	          screenshot: '../images/breeze.png'
 	        }),
@@ -29802,10 +29802,10 @@
 	          screenshot: '../images/number-guesser-react.png'
 	        }),
 	        _react2.default.createElement(_Card2.default, {
-	          title: '2DoBox (Repo)',
-	          link: 'http://github.com/dylanavery720/2DoBoxPivot',
-	          id: '2dobox',
-	          screenshot: '../images/2doBox.png'
+	          title: 'Quasimoto (Static Comp)',
+	          link: 'https://dylanavery720.github.io/quasimoto/',
+	          id: 'quasimoto',
+	          screenshot: '../images/quasimoto.png'
 	        })
 	      );
 	    }
