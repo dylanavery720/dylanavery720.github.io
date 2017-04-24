@@ -50,10 +50,10 @@ export default class Projects extends React.Component {
           screenshot='../images/number-guesser-react.png'
         />
         <Card
-          title='2DoBox (Repo)'
-          link='http://github.com/dylanavery720/2DoBoxPivot'
-          id='2dobox'
-          screenshot='../images/2doBox.png'
+          title='Quasimoto (Static Comp)'
+          link='https://dylanavery720.github.io/quasimoto/'
+          id='quasimoto'
+          screenshot='../images/quasimoto.png'
         />
       </section>
     )
