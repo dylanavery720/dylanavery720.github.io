@@ -20,8 +20,8 @@ export default class Projects extends React.Component {
           screenshot='../images/health.png'
         />
         <Card
-          title='Frogger (Repo)'
-          link='http://github.com/dylanavery720/frogger'
+          title='Frogger'
+          link='https://dylanavery720.github.io/frogger'
           id='frogger'
           screenshot='../images/frogger.png'
         />
