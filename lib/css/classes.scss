@@ -41,6 +41,12 @@
   width: 350px;
 }
 
-// #application {
-//   background: $bodycolor;
-// }
+@media screen and (max-width: 600px) {
+  .cards {
+    width: 98%;
+  }
+
+  .screens {
+    width: 300px;
+  }
+}
