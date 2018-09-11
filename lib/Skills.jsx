@@ -7,7 +7,7 @@ export default class Skills extends React.Component {
         <h2>Technical Skills</h2>
         <p>
           AGILE/React/Redux/Express/TypeORM/TypeScript/NestJS/Web3/Ethereum/Bitcoin/Solidity/
-          Mocha/HTML/CSS/PostgreSQL/Solidity
+          Mocha/HTML/CSS/PostgreSQL
         </p>
       </section>
     );

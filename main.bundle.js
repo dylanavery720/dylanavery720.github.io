@@ -31443,7 +31443,7 @@
 	        _react2.default.createElement(
 	          "p",
 	          null,
-	          "AGILE/React/Redux/Express/TypeORM/TypeScript/NestJS/Web3/Ethereum/Bitcoin/Solidity/ Mocha/HTML/CSS/PostgreSQL/Solidity"
+	          "AGILE/React/Redux/Express/TypeORM/TypeScript/NestJS/Web3/Ethereum/Bitcoin/Solidity/ Mocha/HTML/CSS/PostgreSQL"
 	        )
 	      );
 	    }
