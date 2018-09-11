@@ -14,7 +14,6 @@
     "no-mixed-requires": [0],
     "no-underscore-dangle": [0],
     "no-unused-vars": [0],
-    "semi": [0],
-
+    "semi": [0]
   }
 }
