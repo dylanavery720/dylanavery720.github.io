@@ -8205,7 +8205,7 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	__webpack_require__(485);
-	__webpack_require__(489);
+	__webpack_require__(488);
 
 /***/ },
 /* 299 */
@@ -12167,7 +12167,7 @@
 	        _react2.default.createElement(
 	          'h4',
 	          null,
-	          '"Web Developer"'
+	          'Web Developer'
 	        ),
 	        _react2.default.createElement(_Nav2.default, { text: 'About', handleClick: this.showAbout }),
 	        _react2.default.createElement(_Nav2.default, { text: 'Projects', handleClick: this.showProj }),
@@ -29645,18 +29645,25 @@
 	      return _react2.default.createElement(
 	        'footer',
 	        { id: 'contact' },
-	        _react2.default.createElement(_Social2.default, { link: 'https://twitter.com/dylanavery720', icon: 'images/black_twitter.png',
-	          alt: 'twitter.com/dylanavery720' }),
-	        _react2.default.createElement(_Social2.default, { link: 'https://www.linkedin.com/in/dylan-avery-17336055', icon: 'images/linkedin.png',
-	          alt: 'LinkedIn Logo' }),
-	        _react2.default.createElement(_Social2.default, { link: 'https://www.instagram.com/coloradodylan/', icon: 'https://freevector.co/wp-content/uploads/2013/10/87390-instagram-logo-200x200.png',
-	          alt: 'Instagram Logo' }),
-	        _react2.default.createElement(_Social2.default, { link: 'https://medium.com/@dylanavery720', icon: 'images/medium.png',
-	          alt: 'Medium Logo' }),
+	        _react2.default.createElement(_Social2.default, {
+	          link: 'https://www.linkedin.com/in/dylan-avery-17336055',
+	          icon: 'images/linkedin.png',
+	          alt: 'LinkedIn Logo'
+	        }),
+	        _react2.default.createElement(_Social2.default, {
+	          link: 'https://www.instagram.com/coloradodylan/',
+	          icon: 'https://freevector.co/wp-content/uploads/2013/10/87390-instagram-logo-200x200.png',
+	          alt: 'Instagram Logo'
+	        }),
+	        _react2.default.createElement(_Social2.default, {
+	          link: 'https://medium.com/@dylanavery720',
+	          icon: 'images/medium.png',
+	          alt: 'Medium Logo'
+	        }),
 	        _react2.default.createElement(
 	          'p',
 	          { className: 'concert' },
-	          '\xA9 Copyright 2017 Dylan Avery'
+	          '\xA9 Copyright 2018 Dylan Avery'
 	        )
 	      );
 	    }
@@ -30040,7 +30047,7 @@
 	        _react2.default.createElement(
 	          "p",
 	          null,
-	          "React/Redux/Express/JQuery/JavaScript/Responsive/Webpack/Enzyme/AGILE/ Mocha/HTML/CSS/SASS/Sketch/Git"
+	          "AGILE/React/Redux/Express/TypeORM/TypeScript/NestJS/Web3/Ethereum/Bitcoin/Solidity/ Mocha/HTML/CSS/PostgreSQL/Solidity"
 	        )
 	      );
 	    }
@@ -30093,12 +30100,12 @@
 	        _react2.default.createElement(
 	          'h3',
 	          null,
-	          'email: fossilfuelmusic at gmail dot com'
+	          'email: dylanpatrickavery at gmail dot com'
 	        ),
 	        _react2.default.createElement(
 	          'h3',
 	          null,
-	          'phone: 720-937-0231'
+	          'phone: 720-382-6841'
 	        )
 	      );
 	    }
@@ -30116,10 +30123,10 @@
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(486);
+	var content = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"!!./../../node_modules/css-loader/index.js!./../../node_modules/sass-loader/index.js!./reset.scss\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(488)(content, {});
+	var update = __webpack_require__(487)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -30136,77 +30143,8 @@
 	}
 
 /***/ },
-/* 486 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(487)();
-	// imports
-
-
-	// module
-	exports.push([module.id, "/* http://meyerweb.com/eric/tools/css/reset/\n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n", ""]);
-
-	// exports
-
-
-/***/ },
+/* 486 */,
 /* 487 */
-/***/ function(module, exports) {
-
-	/*
-		MIT License http://www.opensource.org/licenses/mit-license.php
-		Author Tobias Koppers @sokra
-	*/
-	// css base code, injected by the css-loader
-	module.exports = function() {
-		var list = [];
-
-		// return the list of modules as css string
-		list.toString = function toString() {
-			var result = [];
-			for(var i = 0; i < this.length; i++) {
-				var item = this[i];
-				if(item[2]) {
-					result.push("@media " + item[2] + "{" + item[1] + "}");
-				} else {
-					result.push(item[1]);
-				}
-			}
-			return result.join("");
-		};
-
-		// import a list of modules into the list
-		list.i = function(modules, mediaQuery) {
-			if(typeof modules === "string")
-				modules = [[null, modules, ""]];
-			var alreadyImportedModules = {};
-			for(var i = 0; i < this.length; i++) {
-				var id = this[i][0];
-				if(typeof id === "number")
-					alreadyImportedModules[id] = true;
-			}
-			for(i = 0; i < modules.length; i++) {
-				var item = modules[i];
-				// skip already imported module
-				// this implementation is not 100% perfect for weird media query combinations
-				//  when a module is imported multiple times with different media queries.
-				//  I hope this will never occur (Hey this way we have smaller bundles)
-				if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
-					if(mediaQuery && !item[2]) {
-						item[2] = mediaQuery;
-					} else if(mediaQuery) {
-						item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
-					}
-					list.push(item);
-				}
-			}
-		};
-		return list;
-	};
-
-
-/***/ },
-/* 488 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
@@ -30458,16 +30396,16 @@
 
 
 /***/ },
-/* 489 */
+/* 488 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(490);
+	var content = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"!!./../../node_modules/css-loader/index.js!./../../node_modules/sass-loader/index.js!./styles.scss\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(488)(content, {});
+	var update = __webpack_require__(487)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -30482,20 +30420,6 @@
 		// When the module is disposed, remove the <style> tags
 		module.hot.dispose(function() { update(); });
 	}
-
-/***/ },
-/* 490 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(487)();
-	// imports
-	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Asul:200,400,600|Chivo:200,400,600);", ""]);
-
-	// module
-	exports.push([module.id, "body {\n  background: rgba(245, 242, 222, 0.9);\n  font-family: \"Chivo\", sans-serif;\n  text-align: center;\n  font-weight: 400; }\n\nh1 {\n  font-family: \"Asul\", serif;\n  margin-top: 30px;\n  font-size: 6em; }\n\nh2 {\n  font-family: \"Asul\", serif;\n  margin: 30px;\n  font-size: 4em; }\n\nh3 {\n  font-size: 3em;\n  font-family: \"Chivo\", sans-serif;\n  font-weight: 200;\n  margin: 15px;\n  padding: 5px;\n  line-height: 1.2em; }\n\nh4 {\n  font-size: 2em;\n  font-family: \"Chivo\", sans-serif;\n  font-weight: 200;\n  margin: 15px;\n  padding: 5px;\n  line-height: 1.2em; }\n\nfooter {\n  margin: 25px; }\n\n.underlines {\n  font-family: \"Asul\", serif;\n  border-bottom: 2px solid #000000;\n  width: 40%;\n  margin: 10px auto; }\n\n.cards {\n  position: relative;\n  display: inline-block;\n  height: 40%;\n  width: 40%; }\n\n.navlink {\n  display: inline-block;\n  text-decoration: none;\n  transition-duration: 50ms; }\n  .navlink:hover {\n    cursor: pointer;\n    color: rebeccapurple; }\n\n#logo {\n  height: 350px;\n  width: 350px; }\n\n.social {\n  height: 3.8em;\n  width: 3.8em;\n  margin: 0px 20px 20px 20px; }\n\n.screens {\n  height: 300px;\n  width: 350px; }\n\n@media screen and (max-width: 600px) {\n  .cards {\n    width: 98%; }\n  .screens {\n    width: 300px; } }\n", ""]);
-
-	// exports
-
 
 /***/ }
 /******/ ]);
