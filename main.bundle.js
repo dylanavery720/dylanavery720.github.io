@@ -31056,6 +31056,11 @@
 	          icon: 'images/medium.png',
 	          alt: 'Medium Logo'
 	        }),
+	        _react2.default.createElement(_Social2.default, {
+	          link: 'https://twitter.com/dylanavery303',
+	          icon: 'images/black_twitter.png',
+	          alt: 'Twitter Logo'
+	        }),
 	        _react2.default.createElement(
 	          'p',
 	          { className: 'concert' },

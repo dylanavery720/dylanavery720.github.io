@@ -20,6 +20,11 @@ export default class Footer extends React.Component {
           icon="images/medium.png"
           alt="Medium Logo"
         />
+        <Social
+          link="https://twitter.com/dylanavery303"
+          icon="images/black_twitter.png"
+          alt="Twitter Logo"
+        />
         <p className="concert">&copy; Copyright 2018 Dylan Avery</p>
       </footer>
     );
