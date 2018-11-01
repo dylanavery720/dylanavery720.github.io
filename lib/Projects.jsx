@@ -38,22 +38,10 @@ export default class Projects extends React.Component {
           screenshot='../images/breeze.png'
         />
         <Card
-          title='Optimal Aging Coach'
-          link='http://optimalagingcoach.com/'
-          id='optimal-aging-coach'
-          screenshot='../images/oac.png'
-        />
-        <Card
           title='Shanagolden Management'
           link='http://www.shanagoldenmanagement.com'
           id='shanagolden-management'
           screenshot='../images/shana.png'
-        />
-        <Card
-          title='Health and Happiness'
-          link='http://www.healthandhappinessllc.org'
-          id='health-and-happiness'
-          screenshot='../images/health.png'
         />
       </section>
     )

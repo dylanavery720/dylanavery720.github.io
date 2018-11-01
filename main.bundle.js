@@ -31198,22 +31198,10 @@
 	          screenshot: '../images/breeze.png'
 	        }),
 	        _react2.default.createElement(_Card2.default, {
-	          title: 'Optimal Aging Coach',
-	          link: 'http://optimalagingcoach.com/',
-	          id: 'optimal-aging-coach',
-	          screenshot: '../images/oac.png'
-	        }),
-	        _react2.default.createElement(_Card2.default, {
 	          title: 'Shanagolden Management',
 	          link: 'http://www.shanagoldenmanagement.com',
 	          id: 'shanagolden-management',
 	          screenshot: '../images/shana.png'
-	        }),
-	        _react2.default.createElement(_Card2.default, {
-	          title: 'Health and Happiness',
-	          link: 'http://www.healthandhappinessllc.org',
-	          id: 'health-and-happiness',
-	          screenshot: '../images/health.png'
 	        })
 	      );
 	    }
