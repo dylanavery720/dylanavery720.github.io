@@ -25,7 +25,7 @@ export default class Footer extends React.Component {
           icon="images/black_twitter.png"
           alt="Twitter Logo"
         />
-        <p className="concert">&copy; Copyright 2018 Dylan Avery</p>
+        <p className="concert">&copy; Copyright 2019 Dylan Avery</p>
       </footer>
     );
   }
