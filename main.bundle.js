@@ -9337,7 +9337,7 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	__webpack_require__(529);
-	__webpack_require__(533);
+	__webpack_require__(532);
 
 /***/ }),
 /* 333 */
@@ -32249,10 +32249,10 @@
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(530);
+	var content = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"!!../../node_modules/css-loader/index.js!../../node_modules/sass-loader/index.js!./reset.scss\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(532)(content, {});
+	var update = __webpack_require__(531)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -32269,77 +32269,8 @@
 	}
 
 /***/ }),
-/* 530 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(531)();
-	// imports
-
-
-	// module
-	exports.push([module.id, "/* http://meyerweb.com/eric/tools/css/reset/\n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n", ""]);
-
-	// exports
-
-
-/***/ }),
+/* 530 */,
 /* 531 */
-/***/ (function(module, exports) {
-
-	/*
-		MIT License http://www.opensource.org/licenses/mit-license.php
-		Author Tobias Koppers @sokra
-	*/
-	// css base code, injected by the css-loader
-	module.exports = function() {
-		var list = [];
-
-		// return the list of modules as css string
-		list.toString = function toString() {
-			var result = [];
-			for(var i = 0; i < this.length; i++) {
-				var item = this[i];
-				if(item[2]) {
-					result.push("@media " + item[2] + "{" + item[1] + "}");
-				} else {
-					result.push(item[1]);
-				}
-			}
-			return result.join("");
-		};
-
-		// import a list of modules into the list
-		list.i = function(modules, mediaQuery) {
-			if(typeof modules === "string")
-				modules = [[null, modules, ""]];
-			var alreadyImportedModules = {};
-			for(var i = 0; i < this.length; i++) {
-				var id = this[i][0];
-				if(typeof id === "number")
-					alreadyImportedModules[id] = true;
-			}
-			for(i = 0; i < modules.length; i++) {
-				var item = modules[i];
-				// skip already imported module
-				// this implementation is not 100% perfect for weird media query combinations
-				//  when a module is imported multiple times with different media queries.
-				//  I hope this will never occur (Hey this way we have smaller bundles)
-				if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
-					if(mediaQuery && !item[2]) {
-						item[2] = mediaQuery;
-					} else if(mediaQuery) {
-						item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
-					}
-					list.push(item);
-				}
-			}
-		};
-		return list;
-	};
-
-
-/***/ }),
-/* 532 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/*
@@ -32591,16 +32522,16 @@
 
 
 /***/ }),
-/* 533 */
+/* 532 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(534);
+	var content = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"!!../../node_modules/css-loader/index.js!../../node_modules/sass-loader/index.js!./styles.scss\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(532)(content, {});
+	var update = __webpack_require__(531)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -32615,20 +32546,6 @@
 		// When the module is disposed, remove the <style> tags
 		module.hot.dispose(function() { update(); });
 	}
-
-/***/ }),
-/* 534 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(531)();
-	// imports
-	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Oswald:200,400,600|EB+Garamond:200,400,600);", ""]);
-
-	// module
-	exports.push([module.id, "body {\n  background: #2B0504;\n  font-family: \"Oswald\", sans-serif;\n  text-align: center;\n  font-weight: 400;\n  color: #ACBEA3; }\n\nh1 {\n  font-family: \"EB Garamond\", serif;\n  margin-top: 30px;\n  font-size: 6em; }\n\nh2 {\n  font-family: \"EB Garamond\", serif;\n  margin: 30px;\n  font-size: 4em; }\n\nh3 {\n  font-size: 3em;\n  font-family: \"Oswald\", sans-serif;\n  font-weight: 200;\n  margin: 15px;\n  padding: 5px;\n  line-height: 1.2em; }\n\nh4 {\n  font-size: 2em;\n  font-family: \"Oswald\", sans-serif;\n  font-weight: 200;\n  margin: 15px;\n  padding: 5px;\n  line-height: 1.2em; }\n\np {\n  font-size: 1.5em; }\n\nfooter {\n  margin: 25px; }\n\n.underlines {\n  font-family: \"EB Garamond\", serif;\n  border-bottom: 2px solid #000000;\n  width: 40%;\n  margin: 10px auto; }\n\n.cards {\n  position: relative;\n  display: inline-block;\n  height: 40%;\n  width: 40%; }\n\n.navlink {\n  display: inline-block;\n  text-decoration: none;\n  transition-duration: 50ms; }\n  .navlink:hover {\n    cursor: pointer;\n    color: white; }\n\n#logo {\n  height: 350px;\n  width: 350px; }\n\n.social {\n  height: 3.8em;\n  width: 3.8em;\n  margin: 0px 20px 20px 20px;\n  padding: 3px;\n  background: #BC5F04;\n  border: 0px solid #BC5F04;\n  border-radius: 50% 50%; }\n  .social:hover {\n    cursor: pointer;\n    height: 4em;\n    width: 4em; }\n\n.screens {\n  height: 300px;\n  width: 350px; }\n\n@media screen and (max-width: 600px) {\n  .cards {\n    width: 98%; }\n  .screens {\n    width: 300px; } }\n", ""]);
-
-	// exports
-
 
 /***/ })
 /******/ ]);
